@@ -1,10 +1,10 @@
-⚛️ Hybrid Quantum Key Distribution (QKD) Simulator API
+• Hybrid Quantum Key Distribution (QKD) Simulator API
 
 This project demonstrates a hybrid cryptographic architecture by simulating the BB84 Quantum Key Distribution (QKD) protocol to generate an ephemeral, information-theoretically secure key, which is then used to perform fast data encryption using a standard classical cipher (AES-256 GCM).
 
 Developed as a RESTful API using Java and Spring Boot, this application showcases a practical model for quantum-resistant key management in a microservices environment.
 
-💡 Project Overview
+•  Project Overview
 
 The core purpose of this simulator is to bridge the gap between quantum theory and real-world application security:
 
@@ -14,7 +14,7 @@ Classical Security Post-Processing: It performs essential classical steps (Error
 
 Hybrid Encryption: The final, secure key is returned to the client and must be provided back to the service for subsequent decryption, mimicking ephemeral key usage without server-side storage.
 
-🛠️ Technology Stack
+•  Technology Stack
 
 Backend Framework: Java 21+ and Spring Boot 3
 
@@ -24,7 +24,7 @@ Symmetric Encryption: AES-256 GCM (using standard Java Cryptography Architecture
 
 Data Serialization: JSON (via Spring Web)
 
-✨ Core Features & Simulated Steps
+•  Core Features & Simulated Steps
 
 The application implements all critical phases of a real-world QKD key exchange:
 
@@ -42,7 +42,7 @@ Privacy Amplification (PA): The final, long bit sequence is cryptographically ha
 
 Ephemeral Key Usage: The generated key is immediately returned to the client and is required for decryption, ensuring the server remains stateless.
 
-🚀 Getting Started
+•  Getting Started
 
 Prerequisites
 
@@ -70,7 +70,7 @@ java -jar target/qkd-simulator-0.0.1-SNAPSHOT.jar
 
 The API will start on http://localhost:8080.
 
-📡 API Endpoints
+•  API Endpoints
 
 1. Encryption (Key Generation & Data Encryption)
 
