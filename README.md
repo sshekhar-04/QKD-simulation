@@ -54,7 +54,7 @@ Build and Run
 
 Clone the repository:
 
-git clone [repository-url]
+git clone https://github.com/sshekhar-04/QKD-simulation.git
 cd quantum-qkd-simulator
 
 
